@@ -1,0 +1,19 @@
+C:\Users\Velichayshiy\source\repos\kursovoy_luc\kursovoy_luc\bin\Debug\kursovoy_luc.exe.config
+C:\Users\Velichayshiy\source\repos\kursovoy_luc\kursovoy_luc\bin\Debug\kursovoy_luc.exe
+C:\Users\Velichayshiy\source\repos\kursovoy_luc\kursovoy_luc\bin\Debug\kursovoy_luc.pdb
+C:\Users\Velichayshiy\source\repos\kursovoy_luc\kursovoy_luc\obj\Debug\kursovoy_luc.csprojResolveAssemblyReference.cache
+C:\Users\Velichayshiy\source\repos\kursovoy_luc\kursovoy_luc\obj\Debug\kursovoy_luc.Form1.resources
+C:\Users\Velichayshiy\source\repos\kursovoy_luc\kursovoy_luc\obj\Debug\kursovoy_luc.Properties.Resources.resources
+C:\Users\Velichayshiy\source\repos\kursovoy_luc\kursovoy_luc\obj\Debug\kursovoy_luc.csproj.GenerateResource.Cache
+C:\Users\Velichayshiy\source\repos\kursovoy_luc\kursovoy_luc\obj\Debug\kursovoy_luc.csproj.CoreCompileInputs.cache
+C:\Users\Velichayshiy\source\repos\kursovoy_luc\kursovoy_luc\obj\Debug\kursovoy_luc.exe
+C:\Users\Velichayshiy\source\repos\kursovoy_luc\kursovoy_luc\obj\Debug\kursovoy_luc.pdb
+F:\3 курс\курсач\kursovoy_luc\kursovoy_luc\bin\Debug\kursovoy_luc.exe.config
+F:\3 курс\курсач\kursovoy_luc\kursovoy_luc\obj\Debug\kursovoy_luc.exe
+F:\3 курс\курсач\kursovoy_luc\kursovoy_luc\obj\Debug\kursovoy_luc.pdb
+F:\3 курс\курсач\kursovoy_luc\kursovoy_luc\obj\Debug\kursovoy_luc.csprojResolveAssemblyReference.cache
+F:\3 курс\курсач\kursovoy_luc\kursovoy_luc\obj\Debug\kursovoy_luc.Form1.resources
+F:\3 курс\курсач\kursovoy_luc\kursovoy_luc\obj\Debug\kursovoy_luc.Properties.Resources.resources
+F:\3 курс\курсач\kursovoy_luc\kursovoy_luc\obj\Debug\kursovoy_luc.csproj.GenerateResource.Cache
+F:\3 курс\курсач\kursovoy_luc\kursovoy_luc\bin\Debug\kursovoy_luc.exe
+F:\3 курс\курсач\kursovoy_luc\kursovoy_luc\bin\Debug\kursovoy_luc.pdb
