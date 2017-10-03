@@ -6,19 +6,39 @@ using System.Threading.Tasks;
 
 namespace kursovoy_luc
 {
-   public class Person
+   public class Person : IMoveable
     {
-        Floor start_floor;  //cсылка на этаж ,на котором инициализируется жилец
-        int target_floor;
-        int speed_to_lift;
-        bool IsInQueue = false;
+
+        //Переменные обозначеные в задании
+        int t_prs;              //Среднее время прихода к лифту
+        int t_pos;              //Среднее время посадки
+        int tog;                //Максимальное время ожидания лифта
+
+        //Собственные переменные
+        Floor start_floor;      //cсылка на этаж ,на котором появляется жилец
+        int target_floor;       //номер этажа,на который стремится жилец   
+        bool IsInQueue = false; //в очереди к лифту?
 
         public Person(Floor start_floor)
         {
             this.start_floor = start_floor;
 
         }
-        void person_go_to_queue() { }
+
+        //ожидание жильцом лифта в очереди
+        void  Waiting()
+        { }
+
+        //реализация IMoveable
+        public void Barkation()
+        { }
+
+        public void Trip()
+        { }
+
+        public void DeBarkation()
+        { }
+        //
 
     }
 }

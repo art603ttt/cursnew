@@ -44,6 +44,10 @@
             this.button_create = new System.Windows.Forms.Button();
             this.button_start = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.toolStripMenuItem_data = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem_ruchnoy = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // flowLayoutPanel1
@@ -144,6 +148,31 @@
             this.button_start.UseVisualStyleBackColor = true;
             this.button_start.Click += new System.EventHandler(this.button_start_Click);
             // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem_data});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(578, 24);
+            this.menuStrip1.TabIndex = 12;
+            this.menuStrip1.Text = "Стартовые данные";
+            // 
+            // toolStripMenuItem_data
+            // 
+            this.toolStripMenuItem_data.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem_ruchnoy});
+            this.toolStripMenuItem_data.Name = "toolStripMenuItem_data";
+            this.toolStripMenuItem_data.Size = new System.Drawing.Size(126, 20);
+            this.toolStripMenuItem_data.Text = "Начальные данные";
+            // 
+            // toolStripMenuItem_ruchnoy
+            // 
+            this.toolStripMenuItem_ruchnoy.Name = "toolStripMenuItem_ruchnoy";
+            this.toolStripMenuItem_ruchnoy.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem_ruchnoy.Text = "Ручной ввод";
+            this.toolStripMenuItem_ruchnoy.Click += new System.EventHandler(this.toolStripMenuItem_ruchnoy_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -162,8 +191,12 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.flowLayoutPanel1);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Form1";
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -185,6 +218,9 @@
         private System.Windows.Forms.Button button_create;
         private System.Windows.Forms.Button button_start;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem_data;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem_ruchnoy;
     }
 }
 

@@ -121,7 +121,7 @@
   <data name="flowLayoutPanel1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAREAAADzCAYAAAChbyKzAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsEAAA7BAbiRa+0AABUuSURBVHhe7Z0NlFTleYCXfxZYYFlgdiEqLqAQi0VJm2gq
+        YQUAAAAJcEhZcwAADsAAAA7AAWrWiQkAABUuSURBVHhe7Z0NlFTleYCXfxZYYFlgdiEqLqAQi0VJm2gq
         HqqyboQVxfAn1qLHnlgDRYmhFLUmhvyoUUNpPKQ5VvG0x26asoKKWTmUaKRaTo9tTI6Khphq17B3Zpf9
         n5n9eXv3V/5mZ/V+3zvf3Xk85zuDu3Pf99vnfefZd+benckR/oMABCAQgEBOgGM5FAIQgIAgEZoAAhAI
         RACJBMLHwRCAABKhByAAgUAEkEggfBwMAQggEXoAAhAIROBTSWT9+vUye/ZsmTdvHgsG9IDhHpg7d64s
@@ -217,5 +217,8 @@
   </data>
   <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
+  </metadata>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>104, 17</value>
   </metadata>
 </root>

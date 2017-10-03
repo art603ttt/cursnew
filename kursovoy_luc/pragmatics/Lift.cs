@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace kursovoy_luc
 {
-  public  class Lift
+  public  class Lift : IMoveable
     {
         Person[] passengers;
         Floor where_lift;           //ссылка на этаж
@@ -23,6 +23,18 @@ namespace kursovoy_luc
 
         }
         
+
+        //реализация IMoveable
+       public void Barkation()
+        { }
+
+       public void Trip()
+        { }
+
+       public void DeBarkation()
+        { }
+        //
+
 
     }
 }

@@ -16,6 +16,8 @@ namespace kursovoy_luc
         Information data_information;
 
 
+        Form_ruchnoy_vvod VVOD;
+
         public Form1()
         {
             InitializeComponent();
@@ -42,6 +44,14 @@ namespace kursovoy_luc
 
 
 
+        }
+
+
+        //Событие - Ручной ввод
+        private void toolStripMenuItem_ruchnoy_Click(object sender, EventArgs e)
+        {
+            VVOD = new Form_ruchnoy_vvod();
+            VVOD.ShowDialog();
         }
     }
 }
